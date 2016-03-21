@@ -27,4 +27,16 @@ $(document).ready(function() {
   $("ul").click(function() {
     alert("This is a ul")
   });
+
+  $(".clickable").click(function() {
+    $("#calculator-image").fadeToggle();
+  });
+
+  $("button#changefontlight").click(function() {
+    $("body").addClass("fontchange");
+  });
+
+  $("button#changefontdark").click(function() {
+    $("body").removeClass();
+  });
 });

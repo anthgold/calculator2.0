@@ -3,14 +3,24 @@
   <head>
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Calculator</title>
   </head>
   <body>
     <h1>Calculator</h1>
-    <h2>Add</h2>
-    <ul>
-      <li>list1</li>
-      <li>list2</li>
-    </ul>
+    <div>
+      <h2>Add</h2>
+      <ul>
+        <li>list1</li>
+        <li>list2</li>
+      </ul>
+      <button class="btn btn-warning" id="changefontlight">Change to lignt text!</button>
+      <button class="btn btn-success" id="changefontdark">Change to dark text!</button>
+    </div>
+    <div>
+      <p class="clickable">Click here to show or hide a calculator image</p>
+      <img id="calculator-image" src="img/calculator.png">
+    </div>
   </body>
 </html>
