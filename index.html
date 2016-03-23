@@ -8,19 +8,19 @@
     <title>Calculator</title>
   </head>
   <body>
-    <h1>Calculator</h1>
-    <div>
-      <h2>Add</h2>
-      <ul>
-        <li>list1</li>
-        <li>list2</li>
-      </ul>
-      <button class="btn btn-warning" id="changefontlight">Change to lignt text!</button>
-      <button class="btn btn-success" id="changefontdark">Change to dark text!</button>
-    </div>
-    <div>
-      <p class="clickable">Click here to show or hide a calculator image</p>
-      <img id="calculator-image" src="img/calculator.png">
+    <div class="container">
+      <h1>Calculator</h1>
+      <form id="add">
+        <div class="form-group">
+          <label for="add1">1st number:</label>
+          <input id="add1" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="add2">1st number:</label>
+          <input id="add2" type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn">Add!</button>
+      </form>
     </div>
   </body>
 </html>
